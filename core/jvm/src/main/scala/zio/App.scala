@@ -37,7 +37,7 @@ package zio
  * }
  * }}}
  */
-trait App extends DefaultRuntime {
+abstract class App extends DefaultRuntime {
 
   /**
    * The main function of the application, which will be passed the command-line
